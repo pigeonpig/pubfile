@@ -47,3 +47,4 @@ jobs:
 ## https://gitee.com/valetzx/pubfile
 ## https://gitlab.com/valetzx/pubfile
 ## https://github.com/valetzx/pubfile
+### 将图片文件链接中的blob改为raw即为直链
