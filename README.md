@@ -3,7 +3,7 @@
  ## https://gitlab.com/valetzx/valetzx.gitlab.io
  ## https://github.com/valetzx/valetzx.github.io
  
-# 代码（需要生成github的ssh id_rsa私钥id_rsa.pub公钥 并添加 ） ： 
+# 代码（需要生成github的ssh id_rsa私钥id_rsa.pub公钥 并添加） ： 
 ````
 name: 'GitHub Actions Mirror'
 
@@ -12,7 +12,7 @@ on:
     branches: 
       - master
   schedule:
-    - cron: '0 16 * * *'
+    - cron: '0 16 * * *' //定时每天16点UTC
 
 jobs:
   mirror_to_gitee:
