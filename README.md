@@ -4,7 +4,8 @@
  ## https://github.com/valetzx/valetzx.github.io
  
 # 代码（需要生成github的ssh id_rsa私钥id_rsa.pub公钥 并添加 ） ： 
- ' name: 'GitHub Actions Mirror'
+````
+name: 'GitHub Actions Mirror'
 
 on:
   push:
@@ -39,4 +40,4 @@ jobs:
             git@gitlab.com:valetzx/valetzx.gitlab.io.git //这里填gitlab仓库ssh地址
           ssh_private_key:
             ${{ secrets.GITLAB_KEY }}
-'
+````
