@@ -3,7 +3,7 @@
  ## https://gitlab.com/valetzx/valetzx.gitlab.io
  ## https://github.com/valetzx/valetzx.github.io
  
-# 代码（需要生成github的ssh id_rsa私钥id_rsa.pub公钥 并添加） ： 
+# 代码 ： 
 ````
 name: 'GitHub Actions Mirror'
 
@@ -41,3 +41,5 @@ jobs:
           ssh_private_key:
             ${{ secrets.GITLAB_KEY }}
 ````
+
+# 需要生成github的ssh id_rsa私钥（添加到GitHubAction secrets 对应的GITEE_KEY,GITLAB_KE）id_rsa.pub公钥（添加到gitee,gitlab的用户设置中的ssh key）
