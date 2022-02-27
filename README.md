@@ -52,7 +52,7 @@ jobs:
 `![](https://gitee.com/valetzx/pubfile/raw/main/img/computer/RM.jpg)`
 ![](https://gitee.com/valetzx/pubfile/raw/main/img/computer/RM.jpg)
 `https://gitlab.com/valetzx/pubfile/-/blob/main/img/computer/RM.jpg`
-![](https://gitlab.com/valetzx/pubfile/-/raw/main/img/computer/RM.jpg)
+![](https://gitlab.com/valetzx/pubfile/raw/main/img/computer/RM.jpg)
 `https://github.com/pigeonpig/pubfile/blob/main/img/computer/RM.jpg`
 ![](https://github.com/pigeonpig/pubfile/raw/main/img/computer/RM.jpg)
 ## 在URL前加`https://ghproxy.com/`也可以加速github
