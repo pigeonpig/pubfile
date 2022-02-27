@@ -3,7 +3,7 @@ name: 'mirror pubfile'
 on:
   push:
     branches: 
-      - master
+      - main
   schedule:
     - cron: '0 15 * * *'
 
