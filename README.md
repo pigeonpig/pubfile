@@ -42,4 +42,8 @@ jobs:
             ${{ secrets.GITLAB_KEY }}
 ````
 
-# 需要生成github的ssh id_rsa私钥（添加到GitHubAction secrets 对应的GITEE_KEY,GITLAB_KE）id_rsa.pub公钥（添加到gitee,gitlab的用户设置中的ssh key）
+## 需要生成github的ssh id_rsa私钥（添加到GitHubAction secrets 对应的GITEE_KEY,GITLAB_KE）id_rsa.pub公钥（添加到gitee,gitlab的用户设置中的ssh key）
+# 本仓库的同步 ：
+## https://gitee.com/valetzx/pubfile
+## https://gitlab.com/valetzx/pubfile
+
