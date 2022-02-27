@@ -48,3 +48,14 @@ jobs:
 ## https://gitlab.com/valetzx/pubfile
 ## https://github.com/valetzx/pubfile
 ### 将图片文件链接中的blob改为raw即为直链
+## 演示为markdown链接
+`![](https://gitee.com/valetzx/pubfile/raw/main/img/computer/RM.jpg)`
+![](https://gitee.com/valetzx/pubfile/raw/main/img/computer/RM.jpg)
+`https://gitlab.com/valetzx/pubfile/-/blob/main/img/computer/RM.jpg`
+![](https://gitlab.com/valetzx/pubfile/-/raw/main/img/computer/RM.jpg)
+`https://github.com/pigeonpig/pubfile/blob/main/img/computer/RM.jpg`
+![](https://github.com/pigeonpig/pubfile/raw/main/img/computer/RM.jpg)
+## 在URL前加`https://ghproxy.com/`也可以加速github
+`https://ghproxy.com/https://github.com/pigeonpig/pubfile/blob/main/img/computer/RM.jpg`
+![](https://ghproxy.com/https://github.com/pigeonpig/pubfile/blob/main/img/computer/RM.jpg)
+## 此方法可以直链任意文件，源码：https://github.com/hunshcn/gh-proxy
