@@ -10,7 +10,7 @@ name: 'GitHub Actions Mirror'
 on:
   push:
     branches: 
-      - master
+      - master //当有文件上传到这个分支开始部署 也有可能是main
   schedule:
     - cron: '0 16 * * *' //定时每天16点UTC
 
