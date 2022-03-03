@@ -8,7 +8,7 @@
 	top: 10%;
 	left: 10%;
 	background-color: var(--heo-card-bg);
-  color: var(--heo-fontcolor);
+  color: #000000;
 	border-radius: 12px;
 	z-index: 102;
   border: var(--style-border);
