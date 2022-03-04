@@ -29,7 +29,7 @@ jobs:
         git config --global user.email 550029691@qq.com
         git config --global user.name valetzx
         git add .
-        git commit -m "update new time" -a
+        git commit -m "Update new time at $(date +'%Y-%m-%d %H:%M:%S') " -a
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
