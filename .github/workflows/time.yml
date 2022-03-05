@@ -1,13 +1,11 @@
 name: add time china
 
 on: 
-  release:
-    types: [published]
   push:
     branches: 
       - master
   schedule:
-    - cron: '13 */8 * * *'
+    - cron: '12 */8 * * *'
   watch:
     types: [started]
    
