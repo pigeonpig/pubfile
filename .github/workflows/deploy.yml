@@ -3,7 +3,7 @@ name: deploy page
 on:
   push:
     branches:
-      - master
+      - main
   watch:
     types: [started]
 
