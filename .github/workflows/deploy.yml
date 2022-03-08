@@ -24,5 +24,8 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GIT_HUB_TOKEN }}
-          publish_dir: ./vblog
+          run: |
+           rm -rf node_modules
+           rm -f package-lock.json
+          publish_dir: ./
              
