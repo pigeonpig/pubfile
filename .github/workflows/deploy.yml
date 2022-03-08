@@ -25,6 +25,6 @@ jobs:
         with:
           github_token: ${{ secrets.GIT_HUB_TOKEN }}
           publish_dir: |
-             - /web
-             - /vblog
+             - ./web
+             - ./vblog
              
