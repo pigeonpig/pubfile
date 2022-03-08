@@ -20,12 +20,13 @@ jobs:
         run: npm i
       - name: build
         run: npm run build && ls -a
+      - name: del useless
+          run: |
+           rm -rf node_modules
+           rm -f package-lock.json
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GIT_HUB_TOKEN }}
-          run: |
-           rm -rf node_modules
-           rm -f package-lock.json
           publish_dir: ./
              
