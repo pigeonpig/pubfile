@@ -21,7 +21,7 @@ jobs:
       - name: build
         run: npm run build && ls -a
       - name: del useless
-          run: |
+        run: |
            rm -rf node_modules
            rm -f package-lock.json
       - name: deploy
