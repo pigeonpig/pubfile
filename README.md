@@ -2,6 +2,9 @@
  ## https://gitee.com/valetzx/valetzx.gitee.io
  ## https://gitlab.com/valetzx/valetzx.gitlab.io
  ## https://github.com/valetzx/valetzx.github.io
+
+# 同步到网盘 ：
+ ## https://pighog.vercel.app/p/8a1f.html
  
 # 代码 ： 
 ````
